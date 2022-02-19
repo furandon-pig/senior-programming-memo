@@ -1,2 +1,5 @@
 # senior-programming-memo
-シニアプログラミングもくもく会のメモをまとめておくリポジトリです。
+
+## 概要
+
+[シニアプログラミングもくもく会](https://techplay.jp/community/SeniorProgramming)のメモです。
