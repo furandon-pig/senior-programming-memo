@@ -13,11 +13,11 @@
    1. GitHubにログインし、下図を参照にSettings,Developer Settings さらにPersonal Access Tokensの画面を開く
 
 
-  <div align="center"><img src="git2.jpg" alt="git2" title="git2" width="500" height="312">&nbsp;<img src="git3.jpg" alt="git3" title="git2" width="500" height="312"></div>
+  <div align="center"><img src="git02.jpg" alt="git2" title="git2" width="500" height="312">&nbsp;<img src="git03.jpg" alt="git3" title="git2" width="500" height="312"></div>
   
   
   
-  <div align="center"><img src="git4.jpg" alt="git4" title="git4" width="500" height="312"> </div>                 
+  <div align="center"><img src="git04.jpg" alt="git4" title="git4" width="500" height="312"> </div>                 
   
   
 
