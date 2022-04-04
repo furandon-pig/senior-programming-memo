@@ -19,7 +19,7 @@
   
   <div align="center"><img src="git04.jpg" alt="git4" title="git4" width="500" height="312"> </div>                 
   
-  
+   2. Noteに任意の名前(ここではXcode)、有効期間、およびScopeを設定する。Xcodeで必要なScopeはadmin:public_key,write:discussion,repo,userの４つすべてを選択する
 
   
 3. XcodeにGitHubのアカウントを登録する
