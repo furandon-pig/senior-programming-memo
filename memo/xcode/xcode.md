@@ -10,8 +10,16 @@
 ## XcodeおよびGitHub側のの設定
 
 1. GitHubでPersonal Account Tokenを発行する。
-  1.GitHubにログインし、下図を参照にSettings,Developer Settings さらにPersonal Access Tokensの画面を開く
-  ![代わり](git2.jpg)
+   1. GitHubにログインし、下図を参照にSettings,Developer Settings さらにPersonal Access Tokensの画面を開く
+
+
+  <img src="git2.jpg" alt="git2" title="git2" width="500" height="312">                 <img src="git3.jpg" alt="git3" title="git2" width="500" height="312">
+  
+  <img src="git4.jpg" alt="git4" title="git4" width="500" height="312">                 <img src="git5.jpg" alt="git5" title="git5" width="500" height="312"> 
+  
+  
+
+  
 3. XcodeにGitHubのアカウントを登録する
 Xcode -> Preferences -> Accountsを選択し、Git
 
