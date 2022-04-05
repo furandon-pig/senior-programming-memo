@@ -23,7 +23,10 @@
 <div align="center"><img src="git06.jpg" alt="git6" title="git6" width="500" height="312"> </div>  
 4. XcodeからGitHubにアクセスできるように、アカウント情報とトークンを設定する。Xcode -> Preferences -> Accountsを選択し、GitHubアカウントを追加し、GitHubに登録したメールアドレスを入力し、トークンを貼り付ける
 
+
 <div align="center"><img src="git07.jpg" alt="git7" title="git7" width="500" height="312">&nbsp;<img src="git08.jpg" alt="git8" title="git8" width="500" height="312"> </div> 
-6. 
+
+<div align="center"><img src="git09.jpg" alt="git9" title="git9" width="500" height="312"> </div> 
+
 
 
