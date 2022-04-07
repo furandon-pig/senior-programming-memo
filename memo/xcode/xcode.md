@@ -29,6 +29,12 @@
 <div align="center"><img src="git09.jpg" alt="git9" title="git9" width="500" height="312"> </div> 
 
 ## Xcodeからgit,GitHubの使用
-1. ローカルにgitリポジトリーを作成する。Source ControlからNew Git Repositoriesを選択。ローカルに最初のcommitが行われる。
-2. <div align="center"><img src="git10.jpg" alt="git10" title="git10" width="500" height="312"> </div> 
+1. ローカルにgitリポジトリーを作成する。Source ControlからNew Git Repositoriesを選択。ローカルに最初のcommitが行われる
+
+
+<div align="center"><img src="git10.jpg" alt="git10" title="git10" width="500" height="312"> </div> 
+
+2. GitHub上にリモートリポジトリーを作成する。下の図の通りSource Control（１）を選び、続いてRepositories,Remote,New "Hello World" Remoteを選択
+
+<div align="center"><img src="git11.jpg" alt="git11" title="git11" width="500" height="312">&nbsp;<img src="git12.jpg" alt="git12" title="git12" width="235" height="207"> </div> 
 
