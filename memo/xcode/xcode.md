@@ -12,7 +12,7 @@
 1. GitHubでPersonal Account Tokenを発行します。 GitHubにログインし、下図を参照にSettings,Developer Settings さらにPersonal Access Tokensの画面を開きます
 <div align="center"><img src="git02.jpg" alt="git2" title="git2" width="500" height="312">&nbsp;<img src="git03.jpg" alt="git3" title="git2" width="500" height="312"></div>
 <div align="center"><img src="git04.jpg" alt="git4" title="git4" width="500" height="312"> </div>  
-2. Noteに任意の名前(ここではXcode)、有効期間、およびScopeを設定します。Xcodeで必要なScopeはadmin:public_key,write:discussion,repo,userの４つすべてを選択します
+2. 下図の画面が表示されたら、Noteに任意の名前(ここではXcode)、有効期間、およびScopeを設定します。Xcodeで必要なScopeはadmin:public_key,write:discussion,repo,userの４つすべてを選択します
   
   
   
@@ -25,7 +25,7 @@
 <div align="center"><img src="git06.jpg" alt="git6" title="git6" width="500" height="312"> </div>  
 
 
-4. XcodeからGitHubにアクセスできるように、アカウント情報とトークンを設定します。Xcode -> Preferences -> Accountsを選択し、GitHubアカウントを追加し、GitHubに登録したメールアドレスを入力し、トークンを貼り付ける。サインインできれば完了
+4. XcodeからGitHubにアクセスできるように、アカウント情報とトークンを設定します。Xcode -> Preferences -> Accountsを選択し、GitHubアカウントを追加し、GitHubに登録したメールアドレスを入力し、トークンを貼り付けます。サインインできれば完了
 
 
 <div align="center"><img src="git07.jpg" alt="git7" title="git7" width="500" height="312">&nbsp;&nbsp;<img src="git08.jpg" alt="git8" title="git8" width="500" height="312"> </div> 
