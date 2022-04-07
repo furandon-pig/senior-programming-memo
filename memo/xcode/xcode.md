@@ -28,7 +28,7 @@
 
 <div align="center"><img src="git09.jpg" alt="git9" title="git9" width="500" height="312"> </div> 
 
-## Xcodeからgit,GitHubの使用
+## Xcodeからリポジトリーを作成し、git,GitHubの利用
 1. ローカルにgitリポジトリーを作成する。Source ControlからNew Git Repositoriesを選択。ローカルに最初のcommitが行われる
 
 
@@ -40,4 +40,7 @@
 
 3. GitHubのWebサイトにログインし、正常にリポジトリーが作成されていることを確認
 
+
 <div align="center"><img src="git13.jpg" alt="git13" title="git13" width="490" height="220"> </div> 
+
+4. この後はXcodeのSource Controlメニューからcommit,pushなどのgitコマンドを実行できるようになる。左下は
