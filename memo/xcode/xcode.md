@@ -43,4 +43,7 @@
 
 <div align="center"><img src="git13.jpg" alt="git13" title="git13" width="490" height="220"> </div> 
 
-4. この後はXcodeのSource Controlメニューからcommit,pushなどのgitコマンドを実行できるようになる。左下は
+4. この後はXcodeのSource Controlメニューからcommit,pushなどのgitコマンドを実行できるようになる。左下は２回commitした状態で、最初のcommit状態を引き出す(Check Out)操作を行っている。右下は最後のcommit状態のソースコードと、最新のソースコード(commit前の段階）を比較している。
+
+
+<div align="center"><img src="git14.jpg" alt="git14" title="git14" width="490" height="230">&nbsp;&nbsp;&nbsp;<img src="git15.jpg" alt="git15" title="git15" width="470" height="240"> </div> 
