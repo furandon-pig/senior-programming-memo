@@ -38,3 +38,6 @@
 
 <div align="center"><img src="git11.jpg" alt="git11" title="git11" width="500" height="312">&nbsp;&nbsp;&nbsp;<img src="git12.jpg" alt="git12" title="git12" width="235" height="207"> </div> 
 
+3. GitHubのWebサイトにログインし、正常にリポジトリーが作成されていることを確認
+
+<div align="center"><img src="git13.jpg" alt="git13" title="git13" width="490" height="220"> </div> 
