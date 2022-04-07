@@ -34,7 +34,7 @@
 
 <div align="center"><img src="git10.jpg" alt="git10" title="git10" width="500" height="312"> </div> 
 
-2. GitHub上にリモートリポジトリーを作成する。下の図の通りSource Control（１）を選び、続いてRepositories,Remote,New "Hello World" Remoteを選択
+2. GitHub上にリモートリポジトリーを作成する。左下の図の通りSource Control（１）を選び、続いてRepositories,Remote,New "Hello World" Remoteを選択。右下の図の確認画面が表示されるので、確認の上Createを実行。注）リポジトリーを他人から見られないようにするためには、Privateを選択する。
 
-<div align="center"><img src="git11.jpg" alt="git11" title="git11" width="500" height="312">&nbsp;<img src="git12.jpg" alt="git12" title="git12" width="235" height="207"> </div> 
+<div align="center"><img src="git11.jpg" alt="git11" title="git11" width="500" height="312">&nbsp;&nbsp;&nbsp;<img src="git12.jpg" alt="git12" title="git12" width="235" height="207"> </div> 
 
