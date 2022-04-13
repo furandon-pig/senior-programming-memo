@@ -131,7 +131,7 @@ flowchart LR
 
 gitはバージョン管理システムを扱うためのコマンド群であり、基本的にはコマンドラインから"git"コマンドを使って操作します。ただ、現在のIDE(Integrated Development Environment;統合開発環境)においてはgitクライアントとしての機能が組み込まれているものもあり、直接gitコマンド触らなくても作業できる場合があります。
 
-例えば、[Visual Studio Code](https://ja.wikipedia.org/wiki/Visual_Studio_Code)にはgitクライアントの機能が含まれており、(別途gitをインストールする必要はありますが)エディタからgitの機能を利用できます。
+例えば、[Visual Studio Code](https://ja.wikipedia.org/wiki/Visual_Studio_Code)にはgitクライアントの機能が含まれており、(別途gitをインストールする必要はありますが)エディタからgitの機能を利用できます。Xcodeでgitを使う場合は[こちら](../xcode/xcode.md)も参照してください。
 
 ## gitのインストール
 
