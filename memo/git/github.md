@@ -53,12 +53,14 @@ GitHubを利用できるようにする場合は、以下の流れで設定を�
 GitHubからリポジトリをクローンしたりプッシュする時、通信内容は暗号化された状態で送受信されます。
 
 その際、内部的にはssh(Secure SHell)という機能が利用され、この中で「公開鍵暗号」を用いたデータの暗号化が行われます。
-(以前は上記のアカウント作成時に設定したパスワードによる認証も可能でしたが、セキュリティ上の観点から廃止されています)
+(以前は上記のアカウント作成時に設定したパスワードによる認証も可能でしたが、現在はセキュリティ上の観点から廃止されています)
 
  * [公開鍵暗号](https://ja.wikipedia.org/wiki/%E5%85%AC%E9%96%8B%E9%8D%B5%E6%9A%97%E5%8F%B7)
  * [RSAをはじめとした暗号化の仕組みと方式の違いとは？](https://eset-info.canon-its.jp/malware_info/special/detail/200908.html)
 
 ssh公開鍵ペアは以下の手順で作成します。 `-t` は公開鍵で用いる暗号化方式、 `-f` は公開鍵のファイル名(デフォルトでは `id_rsa` `id_rsa.pub` になりますが、用途ごとに公開鍵ファイルを作成するの望ましいです)、 `-C` は公開鍵につけるコメントになります。
+
+ * [新しい SSH キーを生成して ssh-agent に追加する](https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 ```sh
 PS> # Windows(PowerShell)の場合。

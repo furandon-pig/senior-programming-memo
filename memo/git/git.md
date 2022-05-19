@@ -141,7 +141,10 @@ gitの利用に必須ではありませんが、エディタからgitを扱う�
 
  * [Visual Studio Code](https://code.visualstudio.com/)
 
-VSCodeはgitクライアントの機能を内蔵していますが、内部的にgitコマンドを使用するため、別途gitのインストールが必要となる点に注意してください。
+VSCodeはgitクライアントの機能を内蔵していますが、内部的にgitコマンドを使用するため、別途gitのインストールが必要となる点に注意してください。また、以下のVSCode拡張をインストールしておくと、gitの履歴確認が行いやすくなります。
+
+ * [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+ *`Ctrl+Shift+X` で拡張機能を表示し、「Marketplace で拡張機能を検索する」の入力欄に"git"と入力すると、インストール可能な拡張機能の候補としてGit Historyが表示されます。
 
 ### Windowsの場合
 
@@ -180,4 +183,29 @@ $ cat ~/.gitconfig
 [user]
         email = furandon.pig@gmail.com
         name = furandon-pig
+```
+
+## リポジトリを作成する
+
+それでは実際に自身のPC内にgitリポジトリを作成してみます。ここではベア(bare)リポジトリという形態のリポジトリを作成してみます。
+
+ベアリポジトリの概要については、[GitHubの解説](https://github.com/furandon-pig/senior-programming-memo/blob/main/memo/git/github.md#github%E3%81%A8%E3%81%AF)に出てきますので興味のある方はそちらを参照してください。
+
+また、リポジトリの作成手順はWindows/macOSのいずれでも同じ手順となります。
+
+### ベア(bare)リポジトリの作成
+
+ベアリポジトリは以下の手順で作成します。
+
+```sh
+$ # /repoは任意の場所に変更しても構いません。
+$ mkdir /repo/hello.git
+$ cd /repo/hello.git
+$ git init --bare .
+```
+
+リポジトリをクローンします。
+
+```sh
+$ git clone file:///repo/hello.git
 ```
