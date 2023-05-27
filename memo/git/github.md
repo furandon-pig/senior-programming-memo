@@ -65,14 +65,14 @@ ssh公開鍵ペアは以下の手順で作成します。 `-t` は公開鍵で�
 ```sh
 PS> # Windows(PowerShell)の場合。
 PS> cd c:\Users\<ユーザ名>\.ssh
-PS> ssh-keygen.exe -t rsa -f my-github-key -C 'keypair_for_github'
+PS> ssh-keygen.exe -t ed25519 -f my-github-key -C 'keypair_for_github'
 ```
 
 ```sh
 $ # macOS/Linuxの場合。
 $ mkdir -m 700 ~/.ssh
 $ cd ~/.ssh
-$ ssh-keygen -t rsa -f my-github-key -C 'keypair_for_github'
+$ ssh-keygen -t ed25519 -f my-github-key -C 'keypair_for_github'
 ```
 
 Windows,macOSのいずれでも以下のように公開鍵につけるパスフレーズが聞かれるため入力します。
